@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz@6..72&display=swap');
+*{
+    margin:0;
+    padding:0;
+    Box-sizing:border-box;
+}
+body{
+    font-family: 'Newsreader', serif;
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    padding:20px 50px;
+}
+.header{
+    position: relative;
+}
+
+nav{
+    /* margin-left: 100px; */
+    flex:1;
+    text-align:center;
+    margin-right:150px ;
+}
+nav ul{
+    display:inline-block;
+    list-style-type:none;
+}
+nav ul li{
+    display:inline-block;
+    margin-right:20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#7D7D7D;
+}
+.img-end{
+    position:absolute;
+    top: 0;
+    right: 50px;
+}
+
+.hero-section{
+    margin: 70px 50px;    
+}
+.intro{
+    position: relative;
+}
+
+.intro h3{
+    font-family: 'Cormorant SC', serif;
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom:10px ;
+    /* letter-spacing: 10px; */
+}
+.intro img{
+    position: absolute;
+    left: 210px;
+    top:-15px;
+    width: 27px;
+    height: 27px; 
+}
+.intro span{
+    color: #7D7D7D;
+}
+.explore{
+    display:flex;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+
+
+.profile{
+    position: relative;
+    padding-right: 20px;
+}
+.pro1{
+    position: relative;
+}
+.pro2{
+    position: absolute;
+    left:50px;
+}
+.pro3{
+    position: absolute;
+    left:100px;
+}
+.link{
+    padding-left:100px;
+    transform: translateY(-8px);
+}
+a{
+  text-decoration: none;
+}
+.btn{
+    background:linear-gradient(#782465,#463361);
+    color: white;
+    padding: 10px 16px;
+    margin-left: 10px;
+    transform: translateY(12px);
+    border: none;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.sec-1{
+    background: #373737;
+    border-top-left-radius: 100px;
+    padding: 30px 270px 30px 100px;
+    transform: translateY(150px);
+}
+.sec-1 span{
+    color: #EF972C;
+}
+.sec-1 h3{
+    color: white;
+    padding-top: 8px;
+}
+.counter-sec{
+    margin: 50px;
+    color: #7D7D7D;
+}
+.counter, .we{
+    font-size: 30px;
+}
+.counter-1{
+    padding-bottom: 10px;
+}
+
+.count-1{
+    display: inline-flex;
+    color: #373737;
+}
